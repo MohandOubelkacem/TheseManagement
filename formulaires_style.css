@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'brushstroke_plainplain';
+    src: url('Br/BRUSHSTP-webfont.eot');
+    src: url('Br/BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Br/BRUSHSTP-webfont.woff2') format('woff2'),
+         url('Br/BRUSHSTP-webfont.woff') format('woff'),
+         url('Br/BRUSHSTP-webfont.ttf') format('truetype'),
+         url('Br/BRUSHSTP-webfont.svg#brushstroke_plainplain') format('svg');
+    font-weight: normal;
+
+}
+    @font-face {
+    font-family: 'immortal_-_alternatesregular';
+    src: url('im/IMMRTLT_-webfont.eot');
+    src: url('im/IMMRTLT_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('im/IMMRTLT_-webfont.woff2') format('woff2'),
+         url('im/IMMRTLT_-webfont.woff') format('woff'),
+         url('im/IMMRTLT_-webfont.ttf') format('truetype'),
+         url('im/IMMRTLT_-webfont.svg#immortal_-_alternatesregular') format('svg');
+    font-weight: bold;
+
+}
+
+@font-face
+{
+    font-family: 'bearpawregular';
+    src: url('li/BEARPAW_-webfont.eot');
+    src: url('li/BEARPAW_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('li/BEARPAW_-webfont.woff') format('woff'),
+         url('li/BEARPAW_-webfont.ttf') format('truetype'),
+         url('li/BEARPAW_-webfont.svg#bearpawregular') format('svg');
+
+    }

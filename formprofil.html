@@ -1,0 +1,44 @@
+<head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" name="viewport">
+    <title> Formulaire Profil</title>
+    <!--- CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+  <body>
+    <!--début du formulaire -->
+    <div id="signup-form">
+      
+      <div id="signup-inner">
+        <div class="clearfix" id="header"> <img id="signup-icon" src="https://cdn.pixabay.com/photo/2012/04/26/19/43/profile-42914_960_720.png" style="width: 102px; height: 102px;">
+          <h1><br>
+          </h1>
+        </div>
+        <form id="send" action=""> <!--début du formulaire-->
+          <p>&nbsp; Civilité*:
+            <select name="civilité" required=""><!--champs obligatoire-->
+              <option value="M"> M </option> <!--liste déroulante à choix multiple-->
+              <option value="MME"> MME </option>
+              <option value="MLLE"> MLLE </option>
+            </select>
+            <label for="tesr" form="test">Nom: *</label> <input id="name" name="Nom:" placeholder="Ex:Descartes" required="required" type="text"> </p> <!--création d' un champs nom avec un exemple à suivre-->
+          <p> Prénom*:</p>
+          <p> <input id="prnm" name="Prénom:" placeholder="Ex: René" required="required" type="text"> </p>
+          <p> <label for="email">Email *</label> <input name="email" id="email" maxlength="30" placeholder="mr.y@gmail.com" required="required" type="email"> </p>
+          <p><b>Confirmation Email *</b></p>
+          <p> <input name="email" id="email" maxlength="30" placeholder="mr.y@gmail.com" required="required" type="email"> </p> <!--vérification de l' adresse email-->
+          <p>Nationalié*:</p>
+          <p> <input name="Nationalité" id="nationamitÃ©" maxlength="30" required="required" type="nationalitÃ©"> </p>
+          <p> <label class="visually-hidden required">Mot de passe</label></p><div class="controls"><input id="registration_password_first" name="registration[password][first]" required="required" placeholder="Mot de passe (8 caractères min.)" data-validate="filter-password" class="registration-password has-error" data-content="Choisissez un mot de passe difficile à deviner." data-error-layout="<p id=&quot;message-error-password&quot; class=&quot;alert alert-error no-icon&quot;></p>" title="" type="password"><p id="message-error-password" class="alert alert-error no-icon">Votre mot de passe doit contenir au moins 8 caractères.</p></div><!--test de validité du mot de passe-->
+
+          <p> <label class="visually-hidden required">Confirmer le mot de passe</label></p><div class="controls"><input id="registration_password_second" name="registration[password][second]" required="required" placeholder="Confirmer le mot de passe" class="registration-password" type="password"></div>
+          <p> <button id="submit" type="submit">Submit</button> </p> <!-- bouton desoumission-->
+        </form>
+        <div id="required"><!--les champs obligatoires-->
+          <p>* Required Fields</p>
+        </div>
+      </div>
+      </div>
+    <!--fin du formulaire-->
+  
+
+</body>

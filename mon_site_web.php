@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="mon_site_web.css">
+		<script type="text/javascript" src="mon_site_web.js"></script>  
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.js"></script>
+
+
+		<title>Gestion de bibliographie</title>
+</head>
+
+
+<body>
+		<div id="corps">
+				
+		
+		<header>  
+					<div class="connexion" >
+								<div>
+									<a  class="bouton_connexion" href="connexion.php">Connexion</a>	 <!-- Gère le Bouton de connexion -->
+								</div>
+					</div>
+					
+						
+						<div class="menu">
+								
+										<div class="auteurs">Auteurs</div>
+										<div class="livres">Livres</div>   			 <!-- Affiche le menu et les multiples choix  -->
+ 										<div class="revues">Revues</div>
+										<div class="conferences">Conférences</div>
+								
+								<div>
+									<form method="POST" action="">	
+									<label for="search">Recherche</label>			<!-- Gère le champs de recherche -->
+									<input type="search" size="15"  name="email"  >
+								</div>
+					</div>
+		</header>
+			
+			<section>
+						<!-- L'article à la une qui va être générer par les requêres PHP avec la base de donnée -->
+
+						<h1>Articles à la une  :</h1>
+					<article>
+								<h2 class="titre">Les meilleurs languages de programmation :</h2>
+							
+							Programmer, c’est donner la capacité à l’ordinateur d’automatiser une action, par une série d’instructions. Et encore aujourd’hui, la programmation reste une composante essentielle du socle de l’informatique. Mais la programmation s’exprime par des langages dits langages de programmation. Et ces langages évoluent avec l’informatique, pour adresser des besoins et problématiques spécifiques dans le temps.
+
+
+De ce fait, plusieurs langages de programmation ont apparu, et quoique certains soient très peu utilisés, de nos jours, voire ont complètement disparu, il en existe qui résistent au temps et s’adaptent aux contraintes actuelles. De ceux-là, les développeurs actuels ont leurs préférences, basées sur les possibilités offertes par tel ou tel langage.
+Sur le sondage initié en 2015 par Developpez.com, le trio gagnant donnait au coude à coude Java avec 27,80 %, suivi de C# avec 27,16 % , puis C++ avec 25,22 %. Ce trio était tout de même suivi de près par Python, avec 23,06 %, qui se présente comme un langage de plein potentiel.
+
+
+Voilà maintenant plusieurs années consécutives que le trio Java, C# et C++ reste le préféré des membres de Developpez.com. Cela est-il encore le cas en 2017 ? Vous êtes invité à voter pour les langages de programmation que vous estimez meilleurs en 2017 sur la base de :
+
+    la couverture et la compatibilité prises en charge par le langage au niveau :
+        des systèmes d’exploitation supportés : Windows, Unix, Linux, etc.,
+        des connecteurs de systèmes de gestion de bases de données (SGBD) intégrés,
+        de la richesse des bibliothèques,
+        du nombre et de la qualité des EDI qui intègrent le langage dans leur interface ;
+
+    la gestion des changements :
+        maintenance logicielle : l’aisance dans la modification d’un bout du code sans avoir à impacter l’ensemble du projet,
+        maintenance évolutive : la programmation de nouveaux modules sans refonte du socle de l’application ;
+
+    la facilité dans l'apprentissage et la prise en main :
+        fluidité de la syntaxe,
+        organisation de la structure du code,
+        l’adoption par la communauté,
+        étendue de la communauté existante autour du langage,
+        existence d’un support libre et/ou payant,
+        disponibilité de la documentation sur le langage ;
+
+    nombre et envergure des applications programmées avec ce langage ;
+    et bien d’autres points que vous pourrez relever.
+	
+					</article>	
+			</section>
+	
+
+<!-- Affiche à droite du site les articles les plus visités pendant un mois-->
+				
+			<aside>
+	
+					<div class="visite">
+						<h1>Les plus visités :</h1>
+							<ul>
+								<li><a href="">Les meilleurs languages de programmations </a></li>								
+								<li><a href="">À la conquête de la planète MARS.</a></li>
+								<li><a href=""> Réusissir dans une entreprise.</a></li>
+								<li><a href="">Guérir du Sida, une réalité ?</a></li>
+								<li><a href="">L'existantialisme est un humanisme.</a></li>
+								<li><a href="">Relativité général et mécanique quantique, enfin d'accord !</a></li>
+								<li><a href="">Salariés ou robots : qui sera l'esclave de qui ?</a></li>
+							</ul>
+
+						
+					</div>
+	
+			</aside>
+	
+
+			<footer>
+			
+				<div class="site">Notre site</div>
+				 
+				 <div class="nous"> À propos de nous :  
+				 									 
+				 									 <a href="https://www.facebook.com/"><img src="facebook.png"></a>
+													<a href="http://ent-ng.parisdescartes.fr/"><img src="descarte.jpeg"></a>
+													<a href="https://twitter.com/"><img  src="twitter.png"></a>
+
+					</div>	
+				
+
+			</footer>
+		
+	</div>
+	
+	<div id="login-PopUp">
+					<div id="login-PopUp-bg" class="close"></div>
+					
+					<div id="login-PopUp-main">
+					<img src="close.png" class="close close">
+						
+						<div class="texte_site">
+						Notre site, est une plateforme qui permet principalement de crée un compte pour gérer des publications scientifiques ou littéraires, et de permettre à un public de les visionner et de les consulter.<br>
+						Il fut créé par quatre étudiants de la faculté de mathématique et d'informatique de Paris Descartes (Paris5), et encadrer par <a href="http://www.math-info.univ-paris5.fr/~jmailly/">M. Jean-Guy Mailly</a>.
+						 </div>
+						
+					</div>
+			
+	</div>
+
+
+		<script type="text/javascript" src="mon_site_web.js"></script>
+
+</body>
+	
+	</html>

@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'brushstroke_plainplain';
+    src: url('Br/BRUSHSTP-webfont.eot');
+    src: url('Br/BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Br/BRUSHSTP-webfont.woff2') format('woff2'),
+         url('Br/BRUSHSTP-webfont.woff') format('woff'),
+         url('Br/BRUSHSTP-webfont.ttf') format('truetype'),
+         url('Br/BRUSHSTP-webfont.svg#brushstroke_plainplain') format('svg');
+    font-weight: normal;
+
+}
+    @font-face {
+    font-family: 'immortal_-_alternatesregular';
+    src: url('im/IMMRTLT_-webfont.eot');
+    src: url('im/IMMRTLT_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('im/IMMRTLT_-webfont.woff2') format('woff2'),
+         url('im/IMMRTLT_-webfont.woff') format('woff'),
+         url('im/IMMRTLT_-webfont.ttf') format('truetype'),
+         url('im/IMMRTLT_-webfont.svg#immortal_-_alternatesregular') format('svg');
+    font-weight: bold;
+
+}
+
+@font-face
+{
+    font-family: 'bearpawregular';
+    src: url('li/BEARPAW_-webfont.eot');
+    src: url('li/BEARPAW_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('li/BEARPAW_-webfont.woff') format('woff'),
+         url('li/BEARPAW_-webfont.ttf') format('truetype'),
+         url('li/BEARPAW_-webfont.svg#bearpawregular') format('svg');
+
+    }
+
+input:focus{background-color: rgba(255,100,100,0.9);}
+
+
+.connexion
+{
+  position: relative;
+  background-color: rgba(20,0,0,0.6);
+  border: 10px 10px 22px  solid black;
+  height: 55px; 
+
+}   
+
+a#bouton_accueil
+{
+  background-color: rgba(0,255,0,0.5);
+  padding: 10px;
+  border-radius:5px;
+  cursor: pointer;
+  position: relative;
+  width: 60px;
+  bottom: 10px;
+}
+
+        a#bouton_accueil:hover{
+        background: rgba(255,00,20,0.6); 
+    }
+
+body
+{
+	background: url("arriere_plan.jpg");  /* Background du site */
+	background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+#corps
+    {
+        
+        padding: auto ;
+        height: auto;
+        width: 70%;
+        margin: auto;
+        background: url('background.jpg');  /* Background du second block qui fait le site  */
+        background-size: fixed;
+        position: relative;
+        
+    }
+
+		.connexion 
+		{
+		  position: relative;
+		  background-color: rgba(20,0,0,0.6);
+		  border: 10px 10px 22px  solid black;
+		  height: 55px;
+		  top: 0px 
+
+		}                                                           /* Gère la position du bouton 'connexion' et son design */
+
+		.bouton_connexion 
+		{
+			position: relative;
+			font-family: immortal_-_alternatesregular;
+			text-decoration: none;
+			left: 780px;
+			top: 10px;
+			color: black;
+		   text-shadow: 2px -2px 3px black;
+			border: 3px solid rgb(022,022,21);
+			padding: 4px;
+			border-radius: 25px;
+			background: rgb(226, 24, 2);
+			font-size: 25px;
+
+		}
+
+		.bouton_connexion:hover 
+		{
+		 background: rgba(100,00,20,0.6); 
+		}
+
+
+
+				.menu 
+			{	
+
+				  position: relative;  
+				   font-size: 32px;
+				   font-family: brushstroke_plainplain;
+				 display: flex;
+				 justify-content: space-between;        
+				 margin: 0px;                            /*  le menu du site: ses foncionnalités et ses thèmes  */
+				 border-radius: 3px;
+				 border: 4px solid black;
+				 padding: 8px 5px 5px 5px;
+				 border-style: solid none;
+				 border-color: rgb(058, 058, 058);
+				 cursor: pointer;
+
+		} 
+		  
+		  .menu .auteurs:hover ,.livres:hover ,.revues:hover ,.conferences:hover 
+		  {
+				 background: linear-gradient(rgb(135, 00, 002), rgb(226, 24, 002));
+			  
+		  }
+
+footer 
+    {
+     position: absolute; 
+    bottom: 0px;                      
+    width: 100%;                             /* Le pied du site  */
+    height: 50px;
+    color: white;
+    background-color: rgba(20,0,0,0.6);
+    border: 10px 10px 22px  solid black;
+    font-family:'brushstroke_plainplain';
+    }
+
+
+    .site 
+    {
+        float: left;
+        padding: 15px 5px 3px 200px;                          /* Une bref présentation du site  */
+        cursor: pointer;                                              
+    }
+    
+    .nous    
+    {
+          padding:0px 20px 0px 0px;
+        float: right;                                         /* Les programmeurs respectifs et oû on pourra les rejoindre  */
+    }
+    
+     footer a 
+    {
+      text-decoration: none;
+      margin: 0px;
+      color: white;                                     /* les 3 images qui montrent oû on pourra joindre les programmeurs */
+      padding: 20px 0px 2px 5px;
+
+    }
+       
+      #login-PopUp
+      {
+        position: absolute;                           /* Le bloc qui gère la touche "Notre site" et ses applications */
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        top: 0;
+        margin-left: 0;
+      } 
+      
+      #login-PopUp-bg
+      {
+        background:rgba(0,0,0,0.6);
+        width: 100%;                                /* Background du site qui va être transparent quand on clique sur "Notre site" */
+        height: 185%;
+        position: absolute;
+        border-radius: 15px;
+        top: 0;
+        display: none;
+      }
+      #login-PopUp-main
+      {
+        position: relative;
+        width: 40%;
+        height: 60%;                          /* la fenêtre blanche qui va être afficher quand on clique sur "Notre site" */
+        top: 75%;
+        margin: auto;
+        background:white;
+        border-radius: 15px;
+        z-index: 1;
+        padding: 15px;
+        box-shadow: 5px 5px 5px rgba(18,70,15,0.6);
+      }
+      
+      .texte_site
+      {
+          font-size: 25px;
+          text-align: justify;                         /* Le texte qui va être lu, et qui est dans la fenêtre blanche  */
+          font-family: 'brushstroke_plainplain';
+      }
+      .close
+      {
+        position: relative;
+        cursor: pointer;
+       margin-left:95%;
+      }

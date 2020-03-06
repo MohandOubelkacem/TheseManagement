@@ -1,0 +1,248 @@
+      @font-face {
+            font-family: 'brushstroke_plainplain';
+            src: url('Br/BRUSHSTP-webfont.eot');
+            src: url('Br/BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+            url('Br/BRUSHSTP-webfont.woff2') format('woff2'),
+            url('Br/BRUSHSTP-webfont.woff') format('woff'),
+            url('Br/BRUSHSTP-webfont.ttf') format('truetype'),
+             url('Br/BRUSHSTP-webfont.svg#brushstroke_plainplain') format('svg');
+        font-weight: normal;
+
+    }
+     @font-face {
+             font-family: 'immortal_-_alternatesregular';
+            src: url('im/IMMRTLT_-webfont.eot');
+            src: url('im/IMMRTLT_-webfont.eot?#iefix') format('embedded-opentype'),
+            url('im/IMMRTLT_-webfont.woff2') format('woff2'),
+            url('im/IMMRTLT_-webfont.woff') format('woff'),
+            url('im/IMMRTLT_-webfont.ttf') format('truetype'),
+            url('im/IMMRTLT_-webfont.svg#immortal_-_alternatesregular') format('svg');
+            font-weight: bold;
+
+}
+
+@font-face
+{
+    font-family: 'bearpawregular';
+    src: url('li/BEARPAW_-webfont.eot');
+    src: url('li/BEARPAW_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('li/BEARPAW_-webfont.woff') format('woff'),
+         url('li/BEARPAW_-webfont.ttf') format('truetype'),
+         url('li/BEARPAW_-webfont.svg#bearpawregular') format('svg');
+
+    }
+
+        
+
+    body
+    {
+	       background: url("http://www.wallpapers-mania.org/images/Deco/fond-page-web-planches-bois.jpg");
+	       background-size: cover;
+           width: 100%;
+           height: 100;
+    }
+
+      #corps
+     {
+        position: relative;
+        height: 100%;
+        width: 70%;
+        left: 15%;
+        top: 100px;
+        background: url(/root/Projet/background.jpg);
+        background-size: fixed;
+        
+        
+    }
+
+
+
+        header {
+                position: relative;
+                background-color: rgba(20,0,0,0.6);
+                border: 2px solid  rgb(058, 058, 058);
+                height: 55px;
+                width: 100%;
+                margin: auto;
+                padding: 2px;
+
+                }
+
+ 
+     
+        header h1
+    {  
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2px -2px 3px black;
+    font-size: 45px;
+    font-family: 'bearpawregular';
+    margin: auto;
+    padding: 4px 50px 4px 50px; 
+}
+
+        .login
+    {
+         border: 2px solid  rgb(058, 058, 058);
+        border-radius: 15px; 
+        position: relative;
+        width: 70%;
+        background-color: rgb(100, 0, 0, 0.6);
+        font-weight: bold;
+        margin: auto;
+        padding: 2px;
+        box-shadow: 30px 20px 10px 2px;
+
+
+
+    }
+
+        .titre_id
+        {
+            text-align: center;
+            margin: auto;
+            font-size: 30px;
+            font-family: 'brushstroke_plainplain';
+            padding-top: 25px;
+        }
+
+      
+        .idantifiant
+
+        {       position: relative;
+                font-family:  'bearpawregular';
+                font-size: 25px;
+                color: white;
+                width: 30%;
+                margin:10px 0px 50px 25px;
+
+               
+        }
+
+
+        .soumettre
+        {
+                position: absolute;
+                border-radius: 20px;
+                 border: 2px solid white; 
+                font-family:  'bearpawregular';
+                font-size: 25px;
+                font-weight: bold; 
+                cursor: pointer;
+                color: white;
+                background: rgba(2,0,0,0.6);
+                left: 280px;
+                top: 60px;
+                padding: 5px 5px;
+        }
+
+
+
+
+        .soumettre:hover 
+        {
+
+            background: rgba(60,00,0,0.6);
+        }        
+        
+        .inscription
+        {       
+                border: 2px solid white;
+                position: absolute;
+                border-radius: 20px;
+                font-family:  'bearpawregular';
+                font-size: 25px;
+                font-weight: bold; 
+                cursor: pointer;
+                color: white;
+                background: rgba(2,0,0,0.6);
+                left: 500px;
+                top: 60px;
+                padding: 5px 5px;
+                text-decoration: none;
+        }
+
+        .inscription:hover 
+        {
+
+            background: rgba(60,00,0,0.6);
+        }
+
+       
+
+       footer 
+    {
+     position: relative; 
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgba(20,0,0,0.6);
+    border: 10px 10px 22px  solid black;
+    font-family:'brushstroke_plainplain';
+    }
+
+
+    .site 
+    {
+        float: left;
+        padding: 15px 5px 3px 200px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .nous    {
+          padding:0px 20px 0px 0px;
+        font-size: 20px;
+        float: right;
+    }
+
+       footer a 
+    {
+      text-decoration: none;
+      margin: 0px;
+      color: white;
+      padding: 20px 0px 2px 5px;
+    }
+
+     #login-PopUp
+      {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        top: 0;
+        margin-left: 0;
+      }
+
+      #login-PopUp-bg
+      {
+        background:rgba(0,0,0,0.6);
+        width: 100%;
+        height: 185%;
+        position: absolute;
+        border-radius: 15px;
+        top: 0;
+      }
+
+      #login-PopUp-main
+      {
+        position: relative;
+        width: 40%;
+        height: 60%;
+        top: 75%;
+        margin: auto;
+        background:white;
+        border-radius: 15px;
+        z-index: 1;
+        padding: 15px;
+        box-shadow: 5px 5px 5px rgba(18,70,15,0.6);
+      }
+
+      .texte_site
+      {
+          font-size: 25px;
+          text-align: justify;
+          font-family: 'brushstroke_plainplain';
+      }
